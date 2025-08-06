@@ -1,2 +1,2 @@
 # mermaid
-using to storage svg picture
+using to store svg picture
