@@ -1,1 +1,7 @@
+qrailworkthreadCPP文件夹
+  存放QRailWorkThread.cpp文件的逻辑流程图
 
+----
+1.系统高层架构流程图
+2.CalcThread::run() 核心计算流程图
+3.超限检测状态机(DoOverLimit_newStandard) 流程图
