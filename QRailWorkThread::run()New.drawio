@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="第 1 页 的副本" id="ayGJ4hrWJBaP0wDGcq-R">
-    <mxGraphModel dx="1584" dy="-2746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#FFFFFF)" math="1" shadow="0">
+    <mxGraphModel dx="5704" dy="-524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#FFFFFF)" math="1" shadow="0">
       <root>
         <mxCell id="j996E-2D6lmd_hDbGrcE-0" />
         <mxCell id="j996E-2D6lmd_hDbGrcE-1" parent="j996E-2D6lmd_hDbGrcE-0" />
         <mxCell id="_YFsQiQxrplz_pjrRApQ-0" value="主事件循环" style="whiteSpace=wrap;strokeWidth=2;fillStyle=solid;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" parent="j996E-2D6lmd_hDbGrcE-1" vertex="1">
           <mxGeometry x="20" y="4500" width="2094" height="3384" as="geometry" />
         </mxCell>
-        <mxCell id="_YFsQiQxrplz_pjrRApQ-1" value="M4: 加载特定历史文件模式" style="whiteSpace=wrap;strokeWidth=2;fillStyle=solid;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFE6CC);" parent="j996E-2D6lmd_hDbGrcE-1" vertex="1">
+        <mxCell id="_YFsQiQxrplz_pjrRApQ-1" value="M4: 加载特定历史文件模式" style="whiteSpace=wrap;strokeWidth=2;fillStyle=solid;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFE6CC);" parent="j996E-2D6lmd_hDbGrcE-1" vertex="1">
           <mxGeometry x="730" y="5751" width="290" height="655" as="geometry" />
         </mxCell>
-        <mxCell id="_YFsQiQxrplz_pjrRApQ-2" value="M3: 从缓存加载模式" style="whiteSpace=wrap;strokeWidth=2;fillStyle=solid;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFE6CC);" parent="j996E-2D6lmd_hDbGrcE-1" vertex="1">
+        <mxCell id="_YFsQiQxrplz_pjrRApQ-2" value="M3: 从缓存加载模式" style="whiteSpace=wrap;strokeWidth=2;fillStyle=solid;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFE6CC);" parent="j996E-2D6lmd_hDbGrcE-1" vertex="1">
           <mxGeometry x="1040" y="5751" width="290" height="655" as="geometry" />
         </mxCell>
         <mxCell id="_YFsQiQxrplz_pjrRApQ-3" value="M2: 实时计算/中断续算模式" style="whiteSpace=wrap;strokeWidth=2;fillStyle=solid;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFE6CC);" parent="j996E-2D6lmd_hDbGrcE-1" vertex="1">
@@ -273,7 +273,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YFsQiQxrplz_pjrRApQ-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.2;rounded=0;" parent="j996E-2D6lmd_hDbGrcE-1" source="_YFsQiQxrplz_pjrRApQ-29" target="_YFsQiQxrplz_pjrRApQ-30" edge="1">
+        <mxCell id="_YFsQiQxrplz_pjrRApQ-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.2;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="j996E-2D6lmd_hDbGrcE-1" source="_YFsQiQxrplz_pjrRApQ-29" target="_YFsQiQxrplz_pjrRApQ-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="886" y="6958" />
@@ -288,10 +288,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_YFsQiQxrplz_pjrRApQ-67" value="向右 (delta &gt; 0)" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.78;entryY=0;rounded=0;fillStyle=solid;strokeColor=light-dark(#000000,#000000);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" parent="j996E-2D6lmd_hDbGrcE-1" source="_YFsQiQxrplz_pjrRApQ-31" target="_YFsQiQxrplz_pjrRApQ-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.149" y="11" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="301" y="7696" />
+              <mxPoint x="262" y="7549" />
+              <mxPoint x="249" y="7689" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_YFsQiQxrplz_pjrRApQ-68" value="向左 (delta &amp;lt; 0)" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.73;entryY=0;rounded=0;fillStyle=solid;strokeColor=light-dark(#000000,#000000);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" parent="j996E-2D6lmd_hDbGrcE-1" source="_YFsQiQxrplz_pjrRApQ-31" target="_YFsQiQxrplz_pjrRApQ-33" edge="1">
